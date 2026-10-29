@@ -1,0 +1,11 @@
+{
+  "ticker": "WDFC",
+  "company": "WD-40 Company",
+  "run_time": "2026-10-29T10:00:00-04:00",
+  "mode": "course fallback because the coding terminal could not reach SEC EDGAR",
+  "filings": {
+    "10-K": {"accession": "0000105132-26-000091", "accepted": "2026-10-26 16:16:43 ET", "period_end": "2026-08-31", "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000091/wdfc-20260831.htm"},
+    "earnings_8-K": {"accession": "0000105132-26-000086", "filing_date": "2026-10-21", "items": ["2.02", "9.01"], "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021.htm"},
+    "Exhibit_99.1": {"accession": "0000105132-26-000086", "url": "https://www.sec.gov/Archives/edgar/data/105132/000010513226000086/wdfc-20261021xexx991.htm"}
+  }
+}
