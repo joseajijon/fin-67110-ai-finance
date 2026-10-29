@@ -1,0 +1,10 @@
+{
+  "units": "USD thousands except per-share data",
+  "price": {"value": 201.41, "date": "2026-10-20", "definition": "last close before the 2026-10-21 earnings release"},
+  "revenue_growth": {"value": 0.1096929764, "arithmetic": "(687,993 - 619,985) / 619,985"},
+  "operating_margin": {"value": 0.1583402738, "arithmetic": "108,937 / 687,993", "definition": "income from operations / net sales"},
+  "return_on_average_equity": {"value": 0.3043511204, "arithmetic": "82,346 / ((272,973 + 268,152) / 2)", "definition": "net income / average stockholders' equity"},
+  "debt_to_equity": {"value": 0.3152289787, "arithmetic": "(85,249 + 800) / 272,973", "definition": "long-term borrowings plus short-term borrowings / stockholders' equity"},
+  "free_cash_flow": {"value": 97573, "arithmetic": "104,977 - 7,404", "definition": "cash from operations minus purchases of property and equipment"},
+  "price_to_earnings": {"value": 33.1266447368, "arithmetic": "201.41 / 6.08", "definition": "2026-10-20 close / FY2026 GAAP diluted EPS"}
+}
