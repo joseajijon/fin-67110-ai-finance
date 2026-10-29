@@ -30,6 +30,9 @@ Complete this table by hand from the filings. Do not use AI for the marks.
 |---|---:|---:|---|---|
 | P/E on the dated close | 33.13x | 33.13x | 2026-10-20 close $201.41 / FY2026 diluted EPS $6.08 | Correct |
 | Maintenance-products net sales | $665.942m | $665.942m | Earnings Exhibit 99.1, net sales by product, FY2026 | Correct |
+| CLX peer operating margin | 13.59% | 13.59% | FY2026 net sales $6,720m; GAAP operating income $913m from Exhibit 99.1 expense lines; 2026-06-30 | Pending student check |
+| CHD peer operating margin | 17.37% | 17.37% | FY2025 net sales $6,203.2m; income from operations $1,077.6m; 2025-12-31 | Pending student check |
+| ECL peer operating margin | 17.02% | 17.02% | FY2025 net sales $16,081.2m; GAAP operating income $2,737.6m; 2025-12-31 | Pending student check |
 
 ## Template and recommendation
 
@@ -38,7 +41,7 @@ Complete this table by hand from the filings. Do not use AI for the marks.
 | All five required sections are present | Correct | Report contains the five named template sections |
 | Recommendation is Buy, Hold, or Sell | Correct | HOLD |
 | Recommendation names one deciding sourced number | Correct | 33.13x trailing P/E, using dated close and GAAP diluted EPS |
-| Definitions are consistent across company and peers | N/A | No peer figures are presented in this fallback report |
+| Definitions are consistent across company and peers | Correct | Each company uses GAAP operating income / GAAP net sales; fiscal period ends are shown |
 
 Partner-checked claim 2 and mark: Revenue growth, correct (Martin Gee)
 
