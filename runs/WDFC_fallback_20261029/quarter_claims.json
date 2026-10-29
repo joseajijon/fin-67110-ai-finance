@@ -1,0 +1,12 @@
+{
+  "units": "USD thousands except per-share data",
+  "period_end": "2026-08-31",
+  "filing_accession": "0000105132-26-000086",
+  "latest_quarter_total_revenue": 176780,
+  "prior_year_quarter_total_revenue": 163471,
+  "quarter_revenue_growth": 0.0814150522,
+  "quarter_revenue_growth_arithmetic": "(176,780 - 163,471) / 163,471",
+  "quarter_diluted_eps_gaap": 1.06,
+  "total_revenue_release_line": "Total net sales were 176,780 for the three months ended August 31, 2026 and 163,471 for the prior-year quarter.",
+  "diluted_eps_release_line": "Diluted earnings per share were 1.06 for the fourth quarter of fiscal 2026, compared with 1.56."
+}
