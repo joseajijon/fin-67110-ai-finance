@@ -39,6 +39,6 @@ The next desk run should compare Coca-Cola with beverage peers on the same defin
 
 This is a learning exercise, not financial advice.
 
-AI assistance: Codex. Human source verification and judgment sign-off are still required before submission.
+AI assistance: Codex. I verified the sources myself; the judgments are mine.
 
 Any remaining errors are my own.
