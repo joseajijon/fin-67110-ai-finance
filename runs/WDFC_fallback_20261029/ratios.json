@@ -7,4 +7,9 @@
   "debt_to_equity": {"value": 0.3152289787, "arithmetic": "(85,249 + 800) / 272,973", "definition": "long-term borrowings plus short-term borrowings / stockholders' equity"},
   "free_cash_flow": {"value": 97573, "arithmetic": "104,977 - 7,404", "definition": "cash from operations minus purchases of property and equipment"},
   "price_to_earnings": {"value": 33.1266447368, "arithmetic": "201.41 / 6.08", "definition": "2026-10-20 close / FY2026 GAAP diluted EPS"}
+  ,"peer_operating_margins": {
+    "CLX": {"value": 0.1358630952, "arithmetic": "913 / 6,720", "definition": "GAAP operating income / net sales", "period_end": "2026-06-30"},
+    "CHD": {"value": 0.1737167913, "arithmetic": "1,077.6 / 6,203.2", "definition": "GAAP income from operations / net sales", "period_end": "2025-12-31"},
+    "ECL": {"value": 0.1702360520, "arithmetic": "2,737.6 / 16,081.2", "definition": "GAAP operating income / net sales", "period_end": "2025-12-31"}
+  }
 }
