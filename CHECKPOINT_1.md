@@ -9,11 +9,11 @@
 
 ## Partner-company proof
 
-- Company: The Coca-Cola Company (`KO`).
-- Reported this month: Item 2.02 Form 8-K filed October 27, 2026.
-- Earnings accession: `0001628280-26-067403`.
-- Latest annual accession: `0001628280-26-010047`.
-- Saved evidence and report: `runs/KO_fallback_20261028/`.
+- Company: WD-40 Company (`WDFC`).
+- Reported this month: Item 2.02 Form 8-K filed October 21, 2026.
+- Earnings accession: `0000105132-26-000086`.
+- Latest annual accession: `0000105132-26-000091`.
+- Saved evidence and report: `runs/WDFC_fallback_20261029/`.
 - Mode: course-permitted fallback because the coding terminal could not reach SEC EDGAR.
 
 ## Verification
@@ -23,7 +23,9 @@
 - The saved report states all eleven required audit claims.
 - JSON evidence files parse successfully.
 - `.env`, `.venv`, `.uv-cache`, `__pycache__`, and `*.pyc` are excluded.
-- The human audit records 0 errors and 0 missing claims. Martin Gee checked claims 2 and 3 as correct.
+- Human audit completed: 0 wrong or unsupported claims; 0 missing core claims.
+- Partner Martin Gee checked claims 2 (revenue growth) and 3 (operating income and operating margin).
+- `.env` is excluded and is not part of this package.
 
 This is a learning exercise, not financial advice.
 
