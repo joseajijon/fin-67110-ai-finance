@@ -1,0 +1,18 @@
+{
+  "ticker": "WDFC",
+  "company": "WD-40 Company",
+  "units": "USD thousands except per-share data",
+  "fiscal_year_end": "2026-08-31",
+  "filing_accession": "0000105132-26-000091",
+  "concepts": {
+    "total_revenue": {"tag": "RevenueFromContractWithCustomerExcludingAssessedTax", "current": 687993, "prior": 619985, "period_end": "2026-08-31"},
+    "operating_income": {"tag": "OperatingIncomeLoss", "current": 108937, "prior": 103793, "period_end": "2026-08-31"},
+    "net_income": {"tag": "NetIncomeLoss", "current": 82346, "prior": 90994, "period_end": "2026-08-31"},
+    "diluted_eps": {"tag": "EarningsPerShareDiluted", "current": 6.08, "prior": 6.69, "period_end": "2026-08-31"},
+    "stockholders_equity": {"tag": "StockholdersEquity", "current": 272973, "prior": 268152, "period_end": "2026-08-31"},
+    "long_term_debt": {"tag": "LongTermDebtNoncurrent", "current": 85249, "period_end": "2026-08-31"},
+    "current_debt_portion": {"tag": "ShortTermBorrowings", "current": 800, "period_end": "2026-08-31"},
+    "cash_from_operations": {"tag": "NetCashProvidedByUsedInOperatingActivities", "current": 104977, "period_end": "2026-08-31"},
+    "capital_expenditures": {"tag": "PaymentsToAcquirePropertyPlantAndEquipment", "current": 7404, "period_end": "2026-08-31"}
+  }
+}
