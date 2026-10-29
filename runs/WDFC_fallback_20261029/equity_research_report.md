@@ -29,7 +29,18 @@ Using the **$201.41** closing price on October 20, 2026, the last close before t
 
 The strongest development is the 13% fiscal-year growth in maintenance-product sales. The main concern is earnings conversion: fiscal 2026 net sales rose 11%, but annual net income fell 10%, and fourth-quarter diluted EPS fell to $1.06 from $1.56. The desk should monitor gross margin, specialty-chemical costs, freight and advertising spending in fiscal 2027. Source: Exhibit 99.1, accession 0000105132-26-000086.
 
-The next run should compare WD-40 with specialty-chemical and maintenance-product peers using the same total-net-sales definition. A peer's broader chemical revenue or adjusted operating income must not be mixed with WD-40's GAAP figures.
+WD-40 can be compared with specialty-chemical and maintenance-product peers using the same total-net-sales definition. A peer's broader chemical revenue or adjusted operating income must not be mixed with WD-40's GAAP figures.
+
+For a first reference set, the desk compares Clorox (CLX), Church & Dwight (CHD), and Ecolab (ECL). These are adjacent consumer cleaning, household, and institutional-cleaning businesses, not pure-play WD-40 competitors. Each margin below uses GAAP operating income divided by GAAP net sales. The fiscal year ends differ, so each row names its period. Amounts are USD millions.
+
+| Company | Fiscal year end | Net sales | GAAP operating income | Operating margin and arithmetic |
+|---|---:|---:|---:|---|
+| WD-40 (WDFC) | 2026-08-31 | $687.993 | $108.937 | 15.83% = 108.937 / 687.993 |
+| Clorox (CLX) | 2026-06-30 | $6,720.0 | $913.0 | 13.59% = 913 / 6,720 |
+| Church & Dwight (CHD) | 2025-12-31 | $6,203.2 | $1,077.6 | 17.37% = 1,077.6 / 6,203.2 |
+| Ecolab (ECL) | 2025-12-31 | $16,081.2 | $2,737.6 | 17.02% = 2,737.6 / 16,081.2 |
+
+Sources: WDFC fiscal 2026 Form 10-K, accession 0000105132-26-000091; CLX fiscal 2026 Form 10-K Exhibit 99.1, accession 0000021076-26-000034; CHD fiscal 2025 Form 10-K, accession 0001193125-26-048139; ECL fiscal 2025 Form 10-K, accession 0001104659-26-018357. For CLX, $913 million is calculated from the GAAP statement components: $2,844 million gross profit less $1,066 million selling and administrative expenses, $749 million advertising, and $116 million research and development. The three filings and all four calculations are saved in `peer_facts.json` and `ratios.json`.
 
 # Investment Recommendation
 
