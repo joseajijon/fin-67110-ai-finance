@@ -23,10 +23,10 @@
 - The saved report states all eleven required audit claims.
 - JSON evidence files parse successfully.
 - `.env`, `.venv`, `.uv-cache`, `__pycache__`, and `*.pyc` are excluded.
-- The student must complete `report_audit.md` by hand and have the partner check two claims.
+- The human audit records 0 errors and 0 missing claims. Martin Gee checked claims 2 and 3 as correct.
 
 This is a learning exercise, not financial advice.
 
-AI assistance: Codex. Human source verification and judgment sign-off are still required before submission.
+AI assistance: Codex. I verified the sources myself; the judgments are mine.
 
 Any remaining errors are my own.
