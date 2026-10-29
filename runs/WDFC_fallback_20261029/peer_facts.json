@@ -1,0 +1,43 @@
+{
+  "units": "USD millions",
+  "as_of": "2026-10-29",
+  "definition": "GAAP operating income divided by GAAP net sales. Fiscal periods are each peer's latest available fiscal year in its own Form 10-K.",
+  "peers": [
+    {
+      "ticker": "CLX",
+      "company": "The Clorox Company",
+      "period_end": "2026-06-30",
+      "accession": "0000021076-26-000034",
+      "net_sales": 6720.0,
+      "operating_income": 913.0,
+      "operating_income_arithmetic": "2,844 gross profit - 1,066 selling and administrative expenses - 749 advertising costs - 116 research and development costs - 0 loss on divestiture - 0 pension settlement charge",
+      "operating_margin": 0.1358630952,
+      "source_lines": "Exhibit 99.1, Results of Operations: consolidated results and expenses; fiscal year ended 2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/21076/000002107626000034/clx-20260630_d2.htm"
+    },
+    {
+      "ticker": "CHD",
+      "company": "Church & Dwight Co., Inc.",
+      "period_end": "2025-12-31",
+      "accession": "0001193125-26-048139",
+      "net_sales": 6203.2,
+      "operating_income": 1077.6,
+      "operating_margin": 0.1737167913,
+      "arithmetic": "1,077.6 / 6,203.2",
+      "source_lines": "Consolidated Statements of Income: Net Sales and Income from Operations; year ended 2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/313927/000119312526048139/chd-20251231.htm"
+    },
+    {
+      "ticker": "ECL",
+      "company": "Ecolab Inc.",
+      "period_end": "2025-12-31",
+      "accession": "0001104659-26-018357",
+      "net_sales": 16081.2,
+      "operating_income": 2737.6,
+      "operating_margin": 0.1702360520,
+      "arithmetic": "2,737.6 / 16,081.2",
+      "source_lines": "Consolidated Statements of Income: Net sales and Consolidated reported GAAP operating income; year ended 2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/31462/000110465926018357/ecl-20251231x10k.htm"
+    }
+  ]
+}
