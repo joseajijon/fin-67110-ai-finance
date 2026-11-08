@@ -1,0 +1,270 @@
+{
+  "cik": "0000909832",
+  "company": "COSTCO WHOLESALE CORP /NEW",
+  "concepts": {
+    "capital_expenditures": {
+      "current": {
+        "concept": "capital_expenditures",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2025-09-01",
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "unit": "USD",
+        "value": 6435000000.0
+      },
+      "prior": {
+        "concept": "capital_expenditures",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2024-09-02",
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "unit": "USD",
+        "value": 5498000000.0
+      },
+      "tag": "PaymentsToAcquirePropertyPlantAndEquipment"
+    },
+    "cash_from_operations": {
+      "current": {
+        "concept": "cash_from_operations",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2025-09-01",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 15817000000.0
+      },
+      "prior": {
+        "concept": "cash_from_operations",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2024-09-02",
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "unit": "USD",
+        "value": 13335000000.0
+      },
+      "tag": "NetCashProvidedByUsedInOperatingActivities"
+    },
+    "current_debt_portion": {
+      "current": {
+        "concept": "current_debt_portion",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": null,
+        "tag": "LongTermDebtCurrent",
+        "unit": "USD",
+        "value": 2248000000.0
+      },
+      "prior": {
+        "concept": "current_debt_portion",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": null,
+        "tag": "LongTermDebtCurrent",
+        "unit": "USD",
+        "value": 75000000.0
+      },
+      "tag": "LongTermDebtCurrent"
+    },
+    "diluted_eps": {
+      "current": {
+        "concept": "diluted_eps",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2025-09-01",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "value": 20.76
+      },
+      "prior": {
+        "concept": "diluted_eps",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2024-09-02",
+        "tag": "EarningsPerShareDiluted",
+        "unit": "USD/shares",
+        "value": 18.21
+      },
+      "tag": "EarningsPerShareDiluted"
+    },
+    "long_term_debt": {
+      "current": {
+        "concept": "long_term_debt",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": null,
+        "tag": "LongTermDebtNoncurrent",
+        "unit": "USD",
+        "value": 3914000000.0
+      },
+      "prior": {
+        "concept": "long_term_debt",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": null,
+        "tag": "LongTermDebtNoncurrent",
+        "unit": "USD",
+        "value": 5713000000.0
+      },
+      "tag": "LongTermDebtNoncurrent"
+    },
+    "net_income": {
+      "current": {
+        "concept": "net_income",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2025-09-01",
+        "tag": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 9226000000.0
+      },
+      "prior": {
+        "concept": "net_income",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2024-09-02",
+        "tag": "NetIncomeLoss",
+        "unit": "USD",
+        "value": 8099000000.0
+      },
+      "tag": "NetIncomeLoss"
+    },
+    "operating_income": {
+      "current": {
+        "concept": "operating_income",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2025-09-01",
+        "tag": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 11685000000.0
+      },
+      "prior": {
+        "concept": "operating_income",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2024-09-02",
+        "tag": "OperatingIncomeLoss",
+        "unit": "USD",
+        "value": 10383000000.0
+      },
+      "tag": "OperatingIncomeLoss"
+    },
+    "stockholders_equity": {
+      "current": {
+        "concept": "stockholders_equity",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": null,
+        "tag": "StockholdersEquity",
+        "unit": "USD",
+        "value": 35803000000.0
+      },
+      "prior": {
+        "concept": "stockholders_equity",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": null,
+        "tag": "StockholdersEquity",
+        "unit": "USD",
+        "value": 29164000000.0
+      },
+      "tag": "StockholdersEquity"
+    },
+    "total_revenue": {
+      "current": {
+        "concept": "total_revenue",
+        "end": "2026-08-30",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2025-09-01",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 303154000000.0
+      },
+      "prior": {
+        "concept": "total_revenue",
+        "end": "2025-08-31",
+        "filed": "2026-10-07",
+        "filing": "0000909832-26-000093",
+        "fiscal_period": "FY",
+        "fiscal_year": 2026,
+        "form": "10-K",
+        "start": "2024-09-02",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "unit": "USD",
+        "value": 275235000000.0
+      },
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+    }
+  },
+  "fiscal_year_end": "2026-08-30",
+  "prior_year_end": "2025-08-31",
+  "revenue_definition": "total revenue"
+}

@@ -1,0 +1,114 @@
+{
+  "errors": 1,
+  "missing": 0,
+  "marks": [
+    {
+      "claim": "1",
+      "label": "Annual total revenue",
+      "report_value": 303154000000.0,
+      "expected_value": 303154000000.0,
+      "mark": "correct",
+      "evidence": "XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax; period end 2026-08-30; filing 0000909832-26-000093; filing value 3.03154e+11 USD.",
+      "report_text": "$303.154 billion. Source: XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax; period end 2026-08-30; filing 0000909832-26-000093."
+    },
+    {
+      "claim": "2",
+      "label": "Annual revenue growth",
+      "report_value": 0.10143700000000001,
+      "expected_value": 0.10143695387577888,
+      "mark": "correct",
+      "evidence": "Growth in total revenue. Arithmetic: (303154000000.0 - 275235000000.0) / 275235000000.0.",
+      "report_text": "10.1437%. Definition: growth in total revenue. Arithmetic: ($303.154 billion - $275.235 billion) / $275.235 billion."
+    },
+    {
+      "claim": "3a",
+      "label": "Annual operating income",
+      "report_value": 11685000000.0,
+      "expected_value": 11685000000.0,
+      "mark": "correct",
+      "evidence": "XBRL tag OperatingIncomeLoss; period end 2026-08-30; filing 0000909832-26-000093; filing value 1.1685e+10 USD.",
+      "report_text": "$11.685 billion. Source: XBRL tag OperatingIncomeLoss; period end 2026-08-30; filing 0000909832-26-000093."
+    },
+    {
+      "claim": "3b",
+      "label": "Annual operating margin",
+      "report_value": 0.038544999999999996,
+      "expected_value": 0.03854476602650798,
+      "mark": "correct",
+      "evidence": "Operating income divided by total revenue. Arithmetic: 11685000000.0 / 303154000000.0.",
+      "report_text": "3.8545%. Definition: operating income divided by total revenue. Arithmetic: $11.685 billion / $303.154 billion."
+    },
+    {
+      "claim": "4",
+      "label": "Annual net income",
+      "report_value": 9226000000.0,
+      "expected_value": 9226000000.0,
+      "mark": "correct",
+      "evidence": "XBRL tag NetIncomeLoss; period end 2026-08-30; filing 0000909832-26-000093; filing value 9.226e+09 USD.",
+      "report_text": "$9.226 billion. Source: XBRL tag NetIncomeLoss; period end 2026-08-30; filing 0000909832-26-000093."
+    },
+    {
+      "claim": "5",
+      "label": "Annual diluted EPS, GAAP",
+      "report_value": 20.76,
+      "expected_value": 20.76,
+      "mark": "correct",
+      "evidence": "XBRL tag EarningsPerShareDiluted; period end 2026-08-30; filing 0000909832-26-000093; filing value 20.76 USD/shares.",
+      "report_text": "$20.76. Source: XBRL tag EarningsPerShareDiluted; period end 2026-08-30; filing 0000909832-26-000093; 10-K line 765: `Diluted | $ | 20.76 | | | $ | 18.21`."
+    },
+    {
+      "claim": "6",
+      "label": "Return on average equity",
+      "report_value": 0.284021,
+      "expected_value": 0.284021118413964,
+      "mark": "correct",
+      "evidence": "Net income divided by average stockholders' equity. Arithmetic: 9226000000.0 / ((35803000000.0 + 29164000000.0) / 2).",
+      "report_text": "28.4021%. Definition: net income divided by average stockholders' equity. Arithmetic: $9.226 billion / (($35.803 billion + $29.164 billion) / 2)."
+    },
+    {
+      "claim": "7",
+      "label": "Debt to equity",
+      "report_value": 0.17210799999999998,
+      "expected_value": 0.17210848252939698,
+      "mark": "correct",
+      "evidence": "Long-term debt plus its current portion, divided by stockholders' equity. Arithmetic: (3914000000.0 + 2248000000.0) / 35803000000.0.",
+      "report_text": "17.2108%. Definition: long-term debt including its current portion divided by stockholders' equity. Arithmetic: ($3.914 billion + $2.248 billion) / $35.803 billion."
+    },
+    {
+      "claim": "8",
+      "label": "Free cash flow",
+      "report_value": 9382000000.0,
+      "expected_value": 9382000000.0,
+      "mark": "correct",
+      "evidence": "Cash from operations minus additions to property and equipment. Arithmetic: 15817000000.0 - 6435000000.0.",
+      "report_text": "$9.382 billion. Definition: cash from operations minus additions to property and equipment. Arithmetic: $15.817 billion - $6.435 billion."
+    },
+    {
+      "claim": "9",
+      "label": "Quarter total revenue",
+      "report_value": 95723000000.0,
+      "expected_value": 95723.0,
+      "mark": "wrong",
+      "evidence": "Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235 | |",
+      "report_text": "$95.723 billion. Source: Exhibit 99.1 line 46: `Total revenue | 95,723 | | | 86,156 | | | 303,154 | | | 275,235` (USD millions)."
+    },
+    {
+      "claim": "10",
+      "label": "Quarter revenue growth",
+      "report_value": 0.111043,
+      "expected_value": 0.11104275964529459,
+      "mark": "correct",
+      "evidence": "Arithmetic: (95723.0 - 86156.0) / 86156.0",
+      "report_text": "11.1043%. Definition: fourth-quarter total-revenue growth against the same quarter last year. Arithmetic: ($95.723 billion - $86.156 billion) / $86.156 billion."
+    },
+    {
+      "claim": "11",
+      "label": "Quarter diluted EPS, GAAP",
+      "report_value": 6.75,
+      "expected_value": 6.75,
+      "mark": "correct",
+      "evidence": "Diluted | $ | 6.75 | | | $ | 5.87 | | | $ | 20.76 | | | $ | 18.21 | |",
+      "report_text": "$6.75. Source: Exhibit 99.1: `Diluted | $ | 6.75 | | | $ | 5.87`."
+    }
+  ]
+}

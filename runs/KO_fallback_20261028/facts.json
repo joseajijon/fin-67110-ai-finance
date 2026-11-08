@@ -1,0 +1,18 @@
+{
+  "ticker": "KO",
+  "company": "The Coca-Cola Company",
+  "units": "USD millions except per-share data",
+  "fiscal_year_end": "2025-12-31",
+  "filing_accession": "0001628280-26-010047",
+  "concepts": {
+    "total_revenue": {"tag": "Revenues", "current": 47941, "prior": 47061, "period_end": "2025-12-31"},
+    "operating_income": {"tag": "OperatingIncomeLoss", "current": 13762, "prior": 9992, "period_end": "2025-12-31"},
+    "net_income": {"tag": "NetIncomeLossAvailableToCommonStockholdersBasic", "current": 13107, "prior": 10631, "period_end": "2025-12-31"},
+    "diluted_eps": {"tag": "EarningsPerShareDiluted", "current": 3.04, "prior": 2.46, "period_end": "2025-12-31"},
+    "stockholders_equity": {"tag": "StockholdersEquity", "current": 32169, "prior": 24856, "period_end": "2025-12-31"},
+    "long_term_debt": {"tag": "LongTermDebtNoncurrent", "current": 42119, "period_end": "2025-12-31"},
+    "current_debt_portion": {"tag": "LongTermDebtCurrent", "current": 1822, "period_end": "2025-12-31"},
+    "cash_from_operations": {"tag": "NetCashProvidedByUsedInOperatingActivities", "current": 7408, "period_end": "2025-12-31"},
+    "capital_expenditures": {"tag": "PaymentsToAcquirePropertyPlantAndEquipment", "current": 2112, "period_end": "2025-12-31"}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "units": "USD millions except per-share data",
+  "period_end": "2026-10-02",
+  "filing_accession": "0001628280-26-067403",
+  "latest_quarter_total_revenue": 13380,
+  "prior_year_quarter_total_revenue": 12455,
+  "quarter_revenue_growth": 0.07426736,
+  "quarter_revenue_growth_arithmetic": "(13,380 - 12,455) / 12,455",
+  "quarter_diluted_eps_gaap": 0.93,
+  "release_line_revenue": "Net Operating Revenues: 13,380 for the three months ended October 2, 2026; 12,455 for the three months ended September 26, 2025.",
+  "release_line_eps": "Diluted Net Income Per Share: 0.93 for the three months ended October 2, 2026; 0.86 for the three months ended September 26, 2025."
+}
