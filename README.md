@@ -16,6 +16,9 @@ Edit `.env` locally. Never upload it:
 ```text
 API_KEY=your-openai-developer-key
 SEC_USER_AGENT="Your Name your-purdue-email@purdue.edu"
+LSEG_APP_KEY=your-lseg-workspace-app-key
+# Or use an export outside this repository:
+LSEG_EXPORT_PATH=/absolute/path/outside/this/repository/to/closes.csv
 ```
 
 ## Lab 02: seven data steps, no model
@@ -60,10 +63,17 @@ The team uses the OpenAI Agents SDK. Python code fixes this order on every run:
 Steps -> Research Analyst -> Financial Analyst -> Investment Advisor -> Strategy Manager -> Verifier
 ```
 
-Run the complete team:
+Run the complete team. The program uses the EDGAR acceptance time and obtains the
+last eligible official close from LSEG:
 
 ```bash
-python agent_team.py COST --peers WMT,TGT,BJ --price 992.13
+python agent_team.py COST --peers WMT,TGT,BJ
+```
+
+Override the EDGAR time only when needed:
+
+```bash
+python agent_team.py COST --peers WMT,TGT,BJ --filed 2026-09-25T16:05:00
 ```
 
 Run only the Verifier on a saved run:
@@ -100,6 +110,38 @@ three personas.
 Push the program, tests, saved COST and WMT folders, the partner-selected report,
 and its audit file. Submit the permanent GitHub commit link in Brightspace under
 `Week 2 -> Checkpoint 1`. Never upload `.env`, `.venv`, or `.uv-cache`.
+
+## Week 4 prework
+
+Install LSEG's Data Library for Python:
+
+```bash
+UV_CACHE_DIR="$PWD/.uv-cache" uv pip install --python .venv/bin/python lseg-data
+```
+
+Print the last close before a filing time:
+
+```bash
+.venv/bin/python closes_reader.py TICKER --filed 2026-11-10T16:05:00
+```
+
+The two project-local skills are `.codex/skills/spinoff-seeker/` and
+`.codex/skills/spinoff-worksheet/`. The minimal discovery test is
+`.codex/skills/week4-skill-check/`. Read `week4/PREWORK.md` before the lab.
+
+Run the EDGAR candidate seeker:
+
+```bash
+.venv/bin/python spinoff_seeker.py --start 2025-11-10
+```
+
+The seeker does not rank until you complete `week4/student_inputs/factors.json`
+by hand. The worksheet does not value a company until you complete its method
+file and persona by hand. These limits follow the Week 4 course instructions.
+
+Inspect `.codex/hooks/verify_skill_output.py`, then use `/hooks` in Codex to
+review and trust the project Stop hook. The hook checks a report only when the
+assistant declares `SKILL_OUTPUT: /absolute/path/to/report.md`.
 
 ## Checkpoint 2 upload
 

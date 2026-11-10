@@ -1,0 +1,9 @@
+{
+  "student_completion_required": true,
+  "valuation_method": "",
+  "low_case_rate_or_multiple": null,
+  "mid_case_rate_or_multiple": null,
+  "client_purchase_size_usd": null,
+  "high_conviction_rule": "",
+  "low_conviction_rule": ""
+}

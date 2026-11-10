@@ -1,0 +1,434 @@
+{
+  "evidence": [
+    {
+      "id": "search-range",
+      "type": "config",
+      "config_file": "week4/outputs/seeker/candidate_registry.json",
+      "key": "search range and Form 10 query"
+    },
+    {
+      "id": "candidate-1",
+      "type": "filing",
+      "filing": "0001193125-26-088399",
+      "section": "EDGAR full-text search result",
+      "date": "2026-03-03",
+      "source": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526088399/"
+    },
+    {
+      "id": "candidate-2",
+      "type": "filing",
+      "filing": "0001193125-26-352605",
+      "section": "EDGAR full-text search result",
+      "date": "2026-08-14",
+      "source": "https://www.sec.gov/Archives/edgar/data/2128626/000119312526352605/"
+    },
+    {
+      "id": "candidate-3",
+      "type": "filing",
+      "filing": "0001193125-25-314415",
+      "section": "EDGAR full-text search result",
+      "date": "2025-12-10",
+      "source": "https://www.sec.gov/Archives/edgar/data/2093101/000119312525314415/"
+    },
+    {
+      "id": "candidate-4",
+      "type": "filing",
+      "filing": "0001193125-26-129178",
+      "section": "EDGAR full-text search result",
+      "date": "2026-03-27",
+      "source": "https://www.sec.gov/Archives/edgar/data/2091349/000119312526129178/"
+    },
+    {
+      "id": "candidate-5",
+      "type": "filing",
+      "filing": "0001104659-26-041977",
+      "section": "EDGAR full-text search result",
+      "date": "2026-04-10",
+      "source": "https://www.sec.gov/Archives/edgar/data/2082247/000110465926041977/"
+    },
+    {
+      "id": "candidate-6",
+      "type": "filing",
+      "filing": "0001214659-26-003205",
+      "section": "EDGAR full-text search result",
+      "date": "2026-03-12",
+      "source": "https://www.sec.gov/Archives/edgar/data/1106861/000121465926003205/"
+    },
+    {
+      "id": "candidate-7",
+      "type": "filing",
+      "filing": "0001193125-26-288697",
+      "section": "EDGAR full-text search result",
+      "date": "2026-06-29",
+      "source": "https://www.sec.gov/Archives/edgar/data/2128626/000119312526288697/"
+    },
+    {
+      "id": "candidate-8",
+      "type": "filing",
+      "filing": "0001213900-26-065286",
+      "section": "EDGAR full-text search result",
+      "date": "2026-06-04",
+      "source": "https://www.sec.gov/Archives/edgar/data/2105139/000121390026065286/"
+    },
+    {
+      "id": "candidate-9",
+      "type": "filing",
+      "filing": "0001104659-26-004329",
+      "section": "EDGAR full-text search result",
+      "date": "2026-01-16",
+      "source": "https://www.sec.gov/Archives/edgar/data/2082247/000110465926004329/"
+    },
+    {
+      "id": "candidate-10",
+      "type": "filing",
+      "filing": "0001628280-26-035212",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-14",
+      "source": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026035212/"
+    },
+    {
+      "id": "candidate-11",
+      "type": "filing",
+      "filing": "0001213900-26-054148",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-11",
+      "source": "https://www.sec.gov/Archives/edgar/data/2105139/000121390026054148/"
+    },
+    {
+      "id": "candidate-12",
+      "type": "filing",
+      "filing": "0001628280-26-041399",
+      "section": "EDGAR full-text search result",
+      "date": "2026-06-08",
+      "source": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026041399/"
+    },
+    {
+      "id": "candidate-13",
+      "type": "filing",
+      "filing": "0001193125-26-241891",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-27",
+      "source": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526241891/"
+    },
+    {
+      "id": "candidate-14",
+      "type": "filing",
+      "filing": "0001193125-26-096776",
+      "section": "EDGAR full-text search result",
+      "date": "2026-03-06",
+      "source": "https://www.sec.gov/Archives/edgar/data/2078008/000119312526096776/"
+    },
+    {
+      "id": "candidate-15",
+      "type": "filing",
+      "filing": "0001193125-26-202395",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-04",
+      "source": "https://www.sec.gov/Archives/edgar/data/2088281/000119312526202395/"
+    },
+    {
+      "id": "candidate-16",
+      "type": "filing",
+      "filing": "0001104659-26-057155",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-07",
+      "source": "https://www.sec.gov/Archives/edgar/data/2090312/000110465926057155/"
+    },
+    {
+      "id": "candidate-17",
+      "type": "filing",
+      "filing": "0001193125-25-285944",
+      "section": "EDGAR full-text search result",
+      "date": "2025-11-18",
+      "source": "https://www.sec.gov/Archives/edgar/data/2067876/000119312525285944/"
+    },
+    {
+      "id": "candidate-18",
+      "type": "filing",
+      "filing": "0001214659-25-016770",
+      "section": "EDGAR full-text search result",
+      "date": "2025-11-17",
+      "source": "https://www.sec.gov/Archives/edgar/data/1106861/000121465925016770/"
+    },
+    {
+      "id": "candidate-19",
+      "type": "filing",
+      "filing": "0001193125-26-391356",
+      "section": "EDGAR full-text search result",
+      "date": "2026-09-15",
+      "source": "https://www.sec.gov/Archives/edgar/data/2128626/000119312526391356/"
+    },
+    {
+      "id": "candidate-20",
+      "type": "filing",
+      "filing": "0001193125-26-396054",
+      "section": "EDGAR full-text search result",
+      "date": "2026-09-21",
+      "source": "https://www.sec.gov/Archives/edgar/data/2128626/000119312526396054/"
+    },
+    {
+      "id": "candidate-21",
+      "type": "filing",
+      "filing": "0001628280-26-020017",
+      "section": "EDGAR full-text search result",
+      "date": "2026-03-20",
+      "source": "https://www.sec.gov/Archives/edgar/data/2104052/000162828026020017/"
+    },
+    {
+      "id": "candidate-22",
+      "type": "filing",
+      "filing": "0001213900-26-071535",
+      "section": "EDGAR full-text search result",
+      "date": "2026-06-24",
+      "source": "https://www.sec.gov/Archives/edgar/data/2105139/000121390026071535/"
+    },
+    {
+      "id": "candidate-23",
+      "type": "filing",
+      "filing": "0001628280-26-020815",
+      "section": "EDGAR full-text search result",
+      "date": "2026-03-24",
+      "source": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026020815/"
+    },
+    {
+      "id": "candidate-24",
+      "type": "filing",
+      "filing": "0001213900-26-070604",
+      "section": "EDGAR full-text search result",
+      "date": "2026-06-22",
+      "source": "https://www.sec.gov/Archives/edgar/data/2108359/000121390026070604/"
+    },
+    {
+      "id": "candidate-25",
+      "type": "filing",
+      "filing": "0001628280-26-007360",
+      "section": "EDGAR full-text search result",
+      "date": "2026-02-11",
+      "source": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026007360/"
+    },
+    {
+      "id": "candidate-26",
+      "type": "filing",
+      "filing": "0001140361-26-038098",
+      "section": "EDGAR full-text search result",
+      "date": "2026-09-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/2101664/000114036126038098/"
+    },
+    {
+      "id": "candidate-27",
+      "type": "filing",
+      "filing": "0001213900-26-074253",
+      "section": "EDGAR full-text search result",
+      "date": "2026-07-01",
+      "source": "https://www.sec.gov/Archives/edgar/data/2105139/000121390026074253/"
+    },
+    {
+      "id": "candidate-28",
+      "type": "filing",
+      "filing": "0001193125-26-055010",
+      "section": "EDGAR full-text search result",
+      "date": "2026-02-17",
+      "source": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526055010/"
+    },
+    {
+      "id": "candidate-29",
+      "type": "filing",
+      "filing": "0001193125-26-029976",
+      "section": "EDGAR full-text search result",
+      "date": "2026-01-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/2093101/000119312526029976/"
+    },
+    {
+      "id": "candidate-30",
+      "type": "filing",
+      "filing": "0001628280-26-027570",
+      "section": "EDGAR full-text search result",
+      "date": "2026-04-27",
+      "source": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026027570/"
+    },
+    {
+      "id": "candidate-31",
+      "type": "filing",
+      "filing": "0001628280-26-013549",
+      "section": "EDGAR full-text search result",
+      "date": "2026-03-03",
+      "source": "https://www.sec.gov/Archives/edgar/data/2089271/000162828026013549/"
+    },
+    {
+      "id": "candidate-32",
+      "type": "filing",
+      "filing": "0001477932-25-009149",
+      "section": "EDGAR full-text search result",
+      "date": "2025-12-22",
+      "source": "https://www.sec.gov/Archives/edgar/data/2049860/000147793225009149/"
+    },
+    {
+      "id": "candidate-33",
+      "type": "filing",
+      "filing": "0001193125-25-312006",
+      "section": "EDGAR full-text search result",
+      "date": "2025-12-09",
+      "source": "https://www.sec.gov/Archives/edgar/data/2029297/000119312525312006/"
+    },
+    {
+      "id": "candidate-34",
+      "type": "filing",
+      "filing": "0001193125-26-391224",
+      "section": "EDGAR full-text search result",
+      "date": "2026-09-15",
+      "source": "https://www.sec.gov/Archives/edgar/data/2130999/000119312526391224/"
+    },
+    {
+      "id": "candidate-35",
+      "type": "filing",
+      "filing": "0001140361-26-042809",
+      "section": "EDGAR full-text search result",
+      "date": "2026-11-09",
+      "source": "https://www.sec.gov/Archives/edgar/data/2101664/000114036126042809/"
+    },
+    {
+      "id": "candidate-36",
+      "type": "filing",
+      "filing": "0001104659-26-066592",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-27",
+      "source": "https://www.sec.gov/Archives/edgar/data/2090312/000110465926066592/"
+    },
+    {
+      "id": "candidate-37",
+      "type": "filing",
+      "filing": "0001193125-25-282972",
+      "section": "EDGAR full-text search result",
+      "date": "2025-11-14",
+      "source": "https://www.sec.gov/Archives/edgar/data/2078008/000119312525282972/"
+    },
+    {
+      "id": "candidate-38",
+      "type": "filing",
+      "filing": "0001213900-26-061646",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-28",
+      "source": "https://www.sec.gov/Archives/edgar/data/2108359/000121390026061646/"
+    },
+    {
+      "id": "candidate-39",
+      "type": "filing",
+      "filing": "0001193125-26-055012",
+      "section": "EDGAR full-text search result",
+      "date": "2026-02-17",
+      "source": "https://www.sec.gov/Archives/edgar/data/2078008/000119312526055012/"
+    },
+    {
+      "id": "candidate-40",
+      "type": "filing",
+      "filing": "0001193125-25-306792",
+      "section": "EDGAR full-text search result",
+      "date": "2025-12-03",
+      "source": "https://www.sec.gov/Archives/edgar/data/2067876/000119312525306792/"
+    },
+    {
+      "id": "candidate-41",
+      "type": "filing",
+      "filing": "0001628280-26-030073",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-05",
+      "source": "https://www.sec.gov/Archives/edgar/data/2104052/000162828026030073/"
+    },
+    {
+      "id": "candidate-42",
+      "type": "filing",
+      "filing": "0002104052-26-000013",
+      "section": "EDGAR full-text search result",
+      "date": "2026-05-06",
+      "source": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000013/"
+    },
+    {
+      "id": "candidate-43",
+      "type": "filing",
+      "filing": "0001628280-26-024528",
+      "section": "EDGAR full-text search result",
+      "date": "2026-04-09",
+      "source": "https://www.sec.gov/Archives/edgar/data/2083632/000162828026024528/"
+    },
+    {
+      "id": "candidate-44",
+      "type": "filing",
+      "filing": "0001193125-26-402509",
+      "section": "EDGAR full-text search result",
+      "date": "2026-09-25",
+      "source": "https://www.sec.gov/Archives/edgar/data/2132873/000119312526402509/"
+    },
+    {
+      "id": "candidate-45",
+      "type": "filing",
+      "filing": "0001193125-26-381915",
+      "section": "EDGAR full-text search result",
+      "date": "2026-09-03",
+      "source": "https://www.sec.gov/Archives/edgar/data/2132873/000119312526381915/"
+    },
+    {
+      "id": "candidate-46",
+      "type": "filing",
+      "filing": "0001628280-26-027240",
+      "section": "EDGAR full-text search result",
+      "date": "2026-04-24",
+      "source": "https://www.sec.gov/Archives/edgar/data/2104052/000162828026027240/"
+    },
+    {
+      "id": "candidate-47",
+      "type": "filing",
+      "filing": "0001193125-26-335481",
+      "section": "EDGAR full-text search result",
+      "date": "2026-08-05",
+      "source": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526335481/"
+    },
+    {
+      "id": "candidate-48",
+      "type": "filing",
+      "filing": "0001193125-26-392242",
+      "section": "EDGAR full-text search result",
+      "date": "2026-09-16",
+      "source": "https://www.sec.gov/Archives/edgar/data/2132873/000119312526392242/"
+    },
+    {
+      "id": "candidate-49",
+      "type": "filing",
+      "filing": "0001193125-26-409182",
+      "section": "EDGAR full-text search result",
+      "date": "2026-09-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/2132873/000119312526409182/"
+    },
+    {
+      "id": "candidate-50",
+      "type": "filing",
+      "filing": "0001193125-25-327056",
+      "section": "EDGAR full-text search result",
+      "date": "2025-12-19",
+      "source": "https://www.sec.gov/Archives/edgar/data/2082015/000119312525327056/"
+    },
+    {
+      "id": "candidate-51",
+      "type": "filing",
+      "filing": "0001193125-25-316594",
+      "section": "EDGAR full-text search result",
+      "date": "2025-12-12",
+      "source": "https://www.sec.gov/Archives/edgar/data/2082015/000119312525316594/"
+    },
+    {
+      "id": "candidate-52",
+      "type": "filing",
+      "filing": "0001193125-26-352589",
+      "section": "EDGAR full-text search result",
+      "date": "2026-08-14",
+      "source": "https://www.sec.gov/Archives/edgar/data/2132873/000119312526352589/"
+    },
+    {
+      "id": "candidate-53",
+      "type": "filing",
+      "filing": "0001193125-26-293551",
+      "section": "EDGAR full-text search result",
+      "date": "2026-07-02",
+      "source": "https://www.sec.gov/Archives/edgar/data/2134183/000119312526293551/"
+    }
+  ]
+}

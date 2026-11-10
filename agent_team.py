@@ -10,6 +10,7 @@ import shutil
 from pathlib import Path
 from typing import Any, Callable
 
+from closes_reader import CloseRecord, last_close_before
 from equity_desk import DeskRun, load_env, numbered_excerpt
 from verifier import verify_report
 
@@ -123,7 +124,7 @@ def verify_only(
 def run_team(
     ticker: str,
     peers: str,
-    price: float | None,
+    filed: str | None,
     model: str,
     output_dir: str = "runs",
     emit: Callable[[str], None] = print,
@@ -139,18 +140,47 @@ def run_team(
     desk_args = argparse.Namespace(
         ticker=ticker,
         peers=peers,
-        price=price,
+        price=None,
         step=None,
         report=False,
         model=model,
         output_dir=output_dir,
     )
     desk = DeskRun(desk_args, env)
-    steps_state = {"ticker": ticker, "peers": peers, "price": price}
-    desk.run_all()
+    desk.step1()
+    desk.step2()
+    filing_time = filed or desk.filings["8-K"].accepted.replace(" ", "T")
+    close = last_close_before(ticker, filing_time, env)
+    if isinstance(close, CloseRecord):
+        desk.args.price = close.close
+        emit(f"Market close: {close.close} on {close.date} from {close.source}")
+        close_state: dict[str, Any] | str = {
+            "ticker": close.ticker,
+            "date": close.date,
+            "close": close.close,
+            "source": close.source,
+        }
+    else:
+        emit("Market close: not available; the agent team will finish without P/E.")
+        close_state = "not available"
+    desk.step3()
+    desk.step4()
+    desk.step5()
+    desk.step6()
+    desk.step7()
+    desk.finalize()
+    steps_state = {
+        "ticker": ticker,
+        "peers": peers,
+        "filing_time_eastern": filing_time,
+        "market_close": close_state,
+    }
     if desk.run_dir is None:
         raise RuntimeError("The steps did not create a run folder")
     run_dir = desk.run_dir
+    desk.metadata["filing_time_eastern"] = filing_time
+    desk.metadata["market_close"] = close_state
+    _save_json(run_dir / "run_metadata.json", desk.metadata)
     _save_json(run_dir / "node_01_steps_input.json", steps_state)
     _save_json(run_dir / "node_01_steps_output.json", desk.metadata)
 
@@ -279,7 +309,10 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("ticker", nargs="?", help="SEC ticker for a complete agent-team run")
     parser.add_argument("--peers", default="", help="Comma-separated peer tickers")
-    parser.add_argument("--price", type=float, help="Dated close used for P/E")
+    parser.add_argument(
+        "--filed",
+        help="Override the EDGAR acceptance time with YYYY-MM-DDTHH:MM:SS Eastern",
+    )
     parser.add_argument("--model", default="gpt-5-mini", help="OpenAI model for role nodes")
     parser.add_argument("--output-dir", default="runs", help="Parent folder for saved runs")
     parser.add_argument("--verify-only", type=Path, help="Run only the Verifier on a saved run")
@@ -301,7 +334,7 @@ def main() -> int:
         return 0
     if not args.ticker:
         raise SystemExit("Give a ticker, --verify-only RUN, or --seed-eps-error SOURCE DESTINATION")
-    path = run_team(args.ticker, args.peers, args.price, args.model, args.output_dir)
+    path = run_team(args.ticker, args.peers, args.filed, args.model, args.output_dir)
     print(path)
     return 0
 
